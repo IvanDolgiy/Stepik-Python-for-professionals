@@ -12,5 +12,3 @@ with open('food_services.json', encoding='utf-8') as file:
     lst = sorted(lst, key=lambda x: x[0])
     for item in lst:
         print(item[0]+': '+item[1]+', '+item[2])
-
-   
